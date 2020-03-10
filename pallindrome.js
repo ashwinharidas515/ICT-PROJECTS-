@@ -1,0 +1,22 @@
+function pall(a){
+    var x=a;
+    var y=x;
+    var rev=0;
+    var rem=0;
+    
+
+while(x>0){
+    rem =x%10;
+    rev =rev*10+rem;
+    x =parseInt(x/10);
+    
+}
+if(rev==y){
+    console.log("it is a palliandrome")
+}
+else{
+    console.log("it is not a palliandrome")
+}
+}
+var c=555;
+pall (c);
