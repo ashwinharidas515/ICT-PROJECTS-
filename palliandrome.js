@@ -13,6 +13,7 @@ if(rev==y){
     console.log("it is a palliandrome")
 }
 else{
+    console.log(rev)
     console.log("it is not a palliandrome")
 }
 
